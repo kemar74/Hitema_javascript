@@ -1,0 +1,113 @@
+#iPhonecontainer {
+    width: 311.25px;
+    height: 645.75px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding-bottom: 10vh
+}
+
+#iPhonecontainer #a_volume_1 {
+    width: 3px;
+    height: 30px;
+    margin-top: 75px;
+    background: #BDBDBD;
+    border-top-left-radius: 1.5px;
+    border-bottom-left-radius: 1.5px
+}
+
+#iPhonecontainer #a_volume_2 {
+    width: 3px;
+    height: 49.5px;
+    margin-top: 37.5px;
+    background: #BDBDBD;
+    border-top-left-radius: 1.5px;
+    border-bottom-left-radius: 1.5px
+}
+
+#iPhonecontainer #a_volume_3 {
+    width: 3px;
+    height: 49.5px;
+    margin-top: 7.5px;
+    background: #BDBDBD;
+    border-top-left-radius: 1.5px;
+    border-bottom-left-radius: 1.5px
+}
+
+#iPhonecontainer #a_iphone {
+    width: 305.25px;
+    height: 645.75px;
+    border-radius: 36px;
+    border: 3.75px solid #DADDDD;
+    background: #F8F8F8
+}
+
+#iPhonecontainer #a_iphone #a_camera {
+    width: 9px;
+    height: 9px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 100%;
+    background: #3c3d3d
+}
+
+#iPhonecontainer #a_iphone #a_sensor {
+    width: 12px;
+    height: 12px;
+    display: block;
+    float: left;
+    margin-left: 93.75px;
+    margin-top: 11.25px;
+    border-radius: 100%;
+    background: #3c3d3d
+}
+
+#iPhonecontainer #a_iphone #a_speaker {
+    width: 52.5px;
+    height: 4.5px;
+    display: block;
+    float: left;
+    margin-left: 21px;
+    margin-top: 15px;
+    border-radius: 4.5px;
+    background: #3c3d3d
+}
+
+#iPhonecontainer #a_iphone #a_screen {
+    width: 279px;
+    height: 495px;
+    float: left;
+    margin-left: 11.25px;
+    margin-top: 15px;
+    border-radius: 3.75px;
+    border: 2.25px solid black;
+    background: #2ecc71;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center
+}
+
+#iPhonecontainer #a_iphone #a_home {
+    width: 45px;
+    height: 45px;
+    display: block;
+    float: left;
+    margin-top: 11.25px;
+    margin-left: 128.25px;
+    border-radius: 100%;
+    border: 3.75px solid #C1C1C1
+}
+
+#iPhonecontainer #a_sleep {
+    width: 3px;
+    height: 49.5px;
+    margin-top: 112.5px;
+    background: #BDBDBD;
+    border-top-right-radius: 1.5px;
+    border-bottom-right-radius: 1.5px
+}
+
+#a_screen > * {
+    overflow: auto;
+}
